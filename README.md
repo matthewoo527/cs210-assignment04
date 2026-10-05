@@ -422,3 +422,18 @@ Money left: $0
 It will print the results after turn 10, but will not end.
 
 ## Explanation
+|Operation|Time Complexity|
+|---|---|
+|Adding|O(1)|
+|Searching|O(n)|
+|Removing|O(n)|
+|Moving|O(k)|
+|Traversing|O(n)|
+```
+Adding is O(1), because adding usually means adding the node to the tail, so it is O(1).
+Searching in the worst case might need to look for every element to search for the nodes, so it should be O(n).
+Removing is similar to searching, it also need to look for every element to search for the nodes to remove elements. So it is O(n).
+Moving is O(k) because moving on the monopoly game board usually move k times, because the next pointer k times, and k is the dice roll.
+Traversing is O(n) because it is only visited once.
+
+```
