@@ -2,7 +2,7 @@
 // JDoodle: Libraries = SDL2; enable GUI and Interactive.
 
 /**
-AI Disclose:
+AI Disclosure:
 I asked chatgpt how to use SDL2 library and how to add property names, cost and owner.
 I also used chatgpt to generate property names.
 For font in GUI, I asked ChatGPT how to use SDL_ttf.h library instead of using the "Tiny font".
